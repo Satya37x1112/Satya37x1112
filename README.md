@@ -39,7 +39,7 @@
 
 ## 🌐 Connect With Me
 <p align="center">
-  <a href="www.linkedin.com/in/satya-sarthak-manohari-b2a609297" target="www.linkedin.com/in/satya-sarthak-manohari-b2a609297">
+  <a href="www.linkedin.com/in/satya-sarthak-manohari-b2a609297" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:manoharisatyasarthak@gmail.com">
