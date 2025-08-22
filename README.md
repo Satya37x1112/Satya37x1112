@@ -24,13 +24,9 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SatyaSarthakManohari&show_icons=true&theme=radical" height="160px"/>
   <img src="https://streak-stats.demolab.com?user=Satya37x1112&theme=radical" height="160px"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SatyaSarthakManohari&layout=compact&theme=radical" height="130px"/>
-</p>
 
 ---
 
