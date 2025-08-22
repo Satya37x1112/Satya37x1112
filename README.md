@@ -25,7 +25,7 @@
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SatyaSarthakManohari&show_icons=true&theme=radical" height="160px"/>
-  <img src="https://github-readme-streak-stats.https://github.com/Satya37x1112/?user=SatyaSarthakManohari&theme=radical" height="160px"/>
+  <img src="https://streak-stats.demolab.com?user=Satya37x1112&theme=radical" height="160px"/>
 </p>
 
 <p align="center">
