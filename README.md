@@ -17,7 +17,7 @@
 
 ## 🛠️ Tech Stack & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,linux,git,github,mysql,html,css,js" />
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,linux,git,github,mysql" />
 </p>
 
 ---
@@ -35,7 +35,6 @@
 ---
 
 ## 🚀 Current Projects
-- 🔐 **Women Safety Android App** (SOS, Location Sharing, Emergency Alerts)  
 - 🌾 **Smart Rural Analytics and Alert System (SRAAS)** – AI + IoT + Cybersecurity  
 - 🕵️ **Capture The Flag (CTF) Training – October 2025**
 
@@ -43,15 +42,13 @@
 
 ## 🌐 Connect With Me
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+  <a href="www.linkedin.com/in/satya-sarthak-manohari-b2a609297" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:YOUR-EMAIL@gmail.com">
+  <a href="mailto:manoharisatyasarthak@gmail.com">
     <img src="https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white" />
   </a>
-  <a href="https://twitter.com/YOUR-TWITTER" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-black?logo=x&logoColor=white" />
-  </a>
+
 </p>
 
 ---
