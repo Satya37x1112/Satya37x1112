@@ -9,10 +9,11 @@
 
 ## 🌟 About Me
 - 🔭 Currently working on **Cybersecurity Projects, Quantum Tech & Research**
-- 🌱 Learning **Advanced DSA | Cloud & Security | Quantum Computing**
+- 🏗️ Co-Founder at **SRAAS** – Smart Rural Analytics & Alert System
+- 🌱 Learning **Advanced DSA | Cloud & Security | Quantum Computing | FULL-STACK Web_Development**
 - 🧪 Ex-Intern at **NISER Bhubaneswar** – Research on **Physics-Informed Neural Networks (PINNs)**
-- 🎯 Goal: Become a **Top Cybersecurity Researcher & GATE Topper (2027)**
-- ⚡ Fun fact: I love solving **CTFs & Hackathons**
+- 🎯 Goal: Become a **Top Cybersecurity Researcher & GATE Topper (2027 | 2028)**
+- ⚡ Fun fact: I love solving **CTFs** & competing in **Hackathons**
 
 
 ## 🛠️ Tech Stack & Tools
