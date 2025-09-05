@@ -1,9 +1,17 @@
-<h1 align="center">Hi 👋, I'm Satya Sarthak Manohari</h1>
+<h1 align="center">✨ Hi, I'm <span style="color:#00F7FF;">Satya Sarthak Manohari</span> 👋</h1>
 <h3 align="center">🚀 Aspiring Cybersecurity Engineer | Researcher | GATE Aspirant | Tech Explorer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=600&lines=Cybersecurity+%26+Research+Enthusiast;Exploring+Quantum+Tech+and+AI;Lifelong+Learner+%7C+Problem+Solver;CTFs+%7C+Hackathons+%7C+Projects" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=🔒+Cybersecurity+%26+Research+Enthusiast;⚡+Exploring+Quantum+Tech+%26+AI;💡+Lifelong+Learner+%7C+Problem+Solver;🏆+CTFs+%7C+Hackathons+%7C+Projects" alt="Typing Animation" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Cybersecurity-%2300F7FF.svg?&style=for-the-badge&logo=hackthebox&logoColor=black" />
+  <img src="https://img.shields.io/badge/Quantum%20Tech-purple?style=for-the-badge&logo=quantconnect&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20Research-black?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GATE%20Aspirant-green?style=for-the-badge&logo=study&logoColor=white" />
+</p>
+
 
 ---
 
