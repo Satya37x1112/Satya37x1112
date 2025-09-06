@@ -1,4 +1,4 @@
-<h1 align="center">✨ Hi, I'm <span style="color:#00F7FF;">Satya Sarthak Manohari</span> 👋</h1>
+<h1 align="center">✨ Hello World, I'm <span style="color:#00F7FF;">Satya Sarthak Manohari</span> 👋</h1>
 <h3 align="center">🚀 Aspiring Cybersecurity Engineer | Researcher | GATE Aspirant | Tech Explorer</h3>
 
 <p align="center">
