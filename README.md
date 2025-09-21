@@ -36,7 +36,17 @@
 ## 🚀 Current Projects  
 - 🌾 **SRAAS (Smart Rural Analytics & Alert System)** – *AI + IoT + Cybersecurity*  
 - 🕵️ **Capture The Flag (CTF) Training** – *October 2025*  
-- ☁️ Exploring **Cloud Security** & **Quantum Cryptography**  
+- ☁️ Exploring **Cloud Security** & **Quantum Cryptography**
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Satya37x1112&show_icons=true&theme=dark" alt="Satya's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Satya37x1112&theme=dark" alt="GitHub Streak" />
+</p>
+
+---
 
 ---
 
