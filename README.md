@@ -15,21 +15,10 @@
 
 </div>
 
-## 🎯 Professional Overview
+## 🎯 Internship Overview
 
-**Cybersecurity Engineer & Research Scholar** with expertise in quantum computing and artificial intelligence. Currently advancing cutting-edge research in Physics-Informed Neural Networks (PINNs) at NISER Bhubaneswar, with a focus on bridging theoretical physics and practical machine learning applications.
+Done research in Physics-Informed Neural Networks (PINNs) at NISER Bhubaneswar, with a focus on bridging theoretical physics and practical machine learning applications.
 
-```yaml
-Current Role: Research Scholar & Cybersecurity Professional
-Institution: NISER Bhubaneswar
-Specialization: Physics-Informed Neural Networks (PINNs)
-Focus Areas: Quantum Computing, AI/ML, Cybersecurity
-Career Goal: GATE 2027/28 & Advanced Research
-```
-
-### 🔬 **Research & Academic Excellence**
-
-**🏛️ NISER Bhubaneswar Research Scholar**
 - **Research Area**: Physics-Informed Neural Networks (PINNs) & Computational Physics  
 - **Project Focus**: Advanced numerical methods for solving partial differential equations using deep learning
 - **Collaboration**: Working with leading researchers in scientific computing and machine learning
