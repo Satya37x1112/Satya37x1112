@@ -121,18 +121,6 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 
 ### *"Every expert was once a beginner. Every pro was once an amateur."*
 
-**🎯 My Learning Philosophy:**
-- 📚 **Consistency over intensity** - Daily learning habits
-- 🔧 **Hands-on practice** - Building real projects, not just theory
-- 🤝 **Community learning** - Engaging with DevOps/Security communities
-- 📝 **Document everything** - Sharing my learning journey and helping others
-- 🎯 **Goal-oriented** - Clear milestones and practical objectives
-
-**🤝 Connect & Learn Together:**
-- Open to study groups and learning partnerships
-- Sharing resources and learning experiences
-- Building beginner-friendly projects collaboratively
-- Documenting the journey from research to DevSecOps
 
 <img src="https://komarev.com/ghpvc/?username=Satya37x1112&style=for-the-badge&color=4169E1&labelColor=0D1117" alt="Profile Views"/>
 
@@ -140,6 +128,6 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 
 ---
 
-**⚡ Learning Journey: From Research Student to DevSecOps Professional | Next Milestone: First Industry Certification 2025 ⚡**
+**⚡ Learning Journey: From Research Student to DevSecOps Professional | Next Milestone: First Industry Certification 2026 ⚡**
 
 </div>
