@@ -79,6 +79,9 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Satya37x1112&theme=github-dark-blue&border_radius=12&background=0D1117&border=21262D&stroke=4169E1&ring=4169E1&fire=6495ED&currStreakLabel=4169E1" alt="GitHub Streak"/>
 
+<!-- ACTUAL GitHub Contribution Calendar (Green Dots) -->
+<img src="https://ghchart.rshah.org/4169E1/Satya37x1112" alt="Satya37x1112's GitHub Contribution Graph" width="100%" />
+
 <img src="https://github-profile-trophy.vercel.app/?username=Satya37x1112&theme=darkhub&no-frame=true&row=1&column=6&margin-w=15&margin-h=15" />
 
 </div>
@@ -109,25 +112,3 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 + 📊 Research Background - Analytical thinking and scientific problem-solving
 + 🌱 DevSecOps Beginner - Actively learning Docker, CI/CD, and cloud basics
 + 🎯 Future Goal - First DevSecOps role by 2025-2026
-```
-
----
-
-<div align="center">
-
-## 📈 Learning Journey & Growth
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Satya37x1112&bg_color=0D1117&color=4169E1&line=4169E1&point=C9D1D9&area=true&hide_border=true&radius=12" />
-
-### *"Every expert was once a beginner. Every pro was once an amateur."*
-
-
-<img src="https://komarev.com/ghpvc/?username=Satya37x1112&style=for-the-badge&color=4169E1&labelColor=0D1117" alt="Profile Views"/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,9,12,17&height=120&section=footer" />
-
----
-
-**⚡ Learning Journey: From Research Student to DevSecOps Professional | Next Milestone: First Industry Certification 2026 ⚡**
-
-</div>
