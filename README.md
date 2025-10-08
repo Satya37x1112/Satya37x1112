@@ -71,29 +71,7 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 ---
 
 <div align="center">
-
-## 📚 My DevSecOps Learning Path
-
-### **Phase 1: Foundations (Current - Next 6 months)**
-```
-🎯 Learning Focus:
-┌─────────────────────────────────────────────┐
-│ • Advanced Linux & Shell Scripting         │
-│ • Docker Fundamentals & Best Practices     │
-│ • Git & GitHub Actions Basics              │
-│ • Network Security Fundamentals            │
-│ • AWS Cloud Practitioner Level             │
-└─────────────────────────────────────────────┘
-```
-
-**🔥 Daily Learning Routine:**
-- 📖 **Morning (1 hour)**: Linux/Docker tutorials on KodeKloud
-- 💻 **Evening (45 mins)**: Hands-on practice with VMs and containers
-- 🔐 **Weekends**: TryHackMe security challenges and CTF practice
-- 📚 **Weekly**: DevOps/Security articles and documentation reading
-
-### **Phase 2: Intermediate (6-12 months ahead)**
-```
+ 
 🚀 Future Goals:
 ┌─────────────────────────────────────────────┐
 │ • Kubernetes Basics                        │
