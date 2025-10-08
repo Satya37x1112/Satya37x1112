@@ -20,7 +20,6 @@
 Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER Bhubaneswar while beginning my journey into DevSecOps engineering. Eager to apply my analytical and problem-solving skills from research to the world of security automation.
 
 - **Research Area**: Physics-Informed Neural Networks (PINNs) & Computational Physics  
-- **Current Project**: Advanced numerical methods for solving partial differential equations using deep learning
 - **Academic Collaboration**: Working with leading researchers in scientific computing and machine learning
 - **Career Goal**: Transitioning research methodology and analytical skills into DevSecOps practices
 
