@@ -70,35 +70,7 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 
 ---
 
-<div align="center">
- 
-🚀 Future Goals:
-┌─────────────────────────────────────────────┐
-│ • Kubernetes Basics                        │
-│ • Terraform Introduction                   │
-│ • CI/CD Pipeline Security                  │
-│ • Cloud Security Fundamentals              │
-│ • Security Automation Scripts              │
-└─────────────────────────────────────────────┘
-```
 
-### **Phase 3: Practical Application (1-2 years)**
-```
-🏆 Long-term Vision:
-┌─────────────────────────────────────────────┐
-│ • First DevSecOps Internship/Job           │
-│ • Contributing to Open Source Projects     │
-│ • Building Portfolio Projects              │
-│ • Industry Certifications                  │
-│ • Mentoring Other Beginners                │
-└─────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-<div align="center">
 
 ## 📊 GitHub Stats & Learning Progress
 
