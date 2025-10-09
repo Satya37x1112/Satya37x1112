@@ -112,3 +112,4 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 + 📊 Research Background - Analytical thinking and scientific problem-solving
 + 🌱 DevSecOps Beginner - Actively learning Docker, CI/CD, and cloud basics
 + 🎯 Future Goal - First DevSecOps role by 2025-2026
+/*code*/
