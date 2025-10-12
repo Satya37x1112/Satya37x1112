@@ -99,10 +99,9 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 [![Team Security Project](https://github-readme-stats.vercel.app/api/pin/?username=rajtilak-2020&repo=Suraksha-Mirage_NexTech1.0&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/rajtilak-2020/Suraksha-Mirage_NexTech1.0)
 
 </div>
-https://wakatime.com/badge/github/Satya37x1112/My_Portfolio.svg
-<a href="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio"><img src="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio.svg" alt="wakatime"></a>
-[![wakatime](https://wakatime.com/badge/github/Satya37x1112/My_Portfolio.svg)](https://wakatime.com/badge/github/Satya37x1112/My_Portfolio)
----
+<div>
+  <a href="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio"><img src="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio.svg" alt="wakatime"></a>
+</div>
 
 ## 🏆 Current Status & Learning Milestones
 
