@@ -67,9 +67,12 @@ graph TB
     E --> F[Incident Response]
     F --> A
     
-    style A fill:#4169E1
-    style C fill:#6495ED
-    style E fill:#1E90FF
+    style A fill:#87CEEB
+    style B fill:#B0E0E6
+    style C fill:#ADD8E6
+    style D fill:#E0F6FF
+    style E fill:#F0F8FF
+    style F fill:#E6F3FF
 ```
 
 </div>
