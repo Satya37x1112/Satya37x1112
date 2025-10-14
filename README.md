@@ -1,72 +1,88 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,9,12,17&height=180&section=header&text=Satya%20Sarthak%20Manohari&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Aspiring%20DevSecOps%20Engineer%20•%20Security%20Enthusiast%20•%20Continuous%20Learner&descAlignY=51&descAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,9,12,17&height=200&section=header&text=Satya%20Sarthak%20Manohari&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Aspiring%20DevSecOps%20Engineer%20•%20System%20Design%20Enthusiast%20•%20Security%20Automation%20Learner&descAlignY=51&descAlign=50" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&weight=500&size=24&duration=3000&pause=1000&color=4169E1&center=true&vCenter=true&width=700&lines=Learning+DevSecOps+%26+Cloud+Security;Building+CI%2FCD+Pipeline+Skills;Exploring+Infrastructure+Automation;Starting+Security+Journey;NISER+Research+Scholar" alt="Dynamic Typing" />
+<img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&weight=500&size=24&duration=3000&pause=1000&color=4169E1&center=true&vCenter=true&width=700&lines=Building+Secure+Systems+at+Scale;Learning+DevSecOps+%26+Security+Automation;Exploring+Cloud+Security+Architecture;Designing+Resilient+Infrastructure;NISER+Research+Scholar+→+Security+Engineer" alt="Dynamic Typing" />
 
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satya-sarthak-manohari-b2a609297)
 [![Email](https://img.shields.io/badge/Email-4169E1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manoharisatyasarthak@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Satya37x1112/My_Portfolio-main)
-[![Learning Journey](https://img.shields.io/badge/DevSecOps_Learning-6495ED?style=for-the-badge&logo=security&logoColor=white)](https://github.com/Satya37x1112)
+[![Portfolio](https://img.shields.io/badge/Security_Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Satya37x1112/My_Portfolio-main)
+[![DevSecOps Journey](https://img.shields.io/badge/DevSecOps_Journey-6495ED?style=for-the-badge&logo=security&logoColor=white)](https://github.com/Satya37x1112)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
 
-## 🎯 Research Background & DevSecOps Learning Journey
+## 🛡️ DevSecOps Engineer in the Making
 
-Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER Bhubaneswar while beginning my journey into DevSecOps engineering. Eager to apply my analytical and problem-solving skills from research to the world of security automation.
+From Physics-Informed Neural Networks research at NISER to building secure, scalable systems - I'm on a mission to integrate security into every layer of the software development lifecycle. My analytical research background provides a unique perspective on systematic approaches to security automation and infrastructure design.
 
-- **Research Area**: Physics-Informed Neural Networks (PINNs) & Computational Physics  
-- **Academic Collaboration**: Working with leading researchers in scientific computing and machine learning
-- **Career Goal**: Transitioning research methodology and analytical skills into DevSecOps practices
-
-### 🌱 **Current Learning Projects** (Beginner Level)
-
-| Project | Technology Stack | Learning Goal |
-|---------|-----------------|---------------|
-| **Basic CI/CD Pipeline** | GitHub Actions, Python | Understanding automated testing basics |
-| **Linux Security Basics** | Linux, Bash scripting | Learning system administration and security |
-| **Container Fundamentals** | Docker basics | Understanding containerization concepts |
-| **Security Scripting** | Python, Basic security tools | Automating simple security tasks |
+### 🎯 **Security Engineering Vision**
+- **Shift-Left Security**: Embedding security controls from code to cloud
+- **Infrastructure as Code**: Treating security policies as code artifacts
+- **Zero Trust Architecture**: Designing systems with security-first principles
+- **Continuous Security**: Automating threat detection and incident response
 
 ---
 
 <div align="center">
 
-## 🛠️ Current Technical Skills & Learning
+## 🔧 DevSecOps Technology Stack
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,html,css,linux,git,mysql,docker,tensorflow,pytorch&theme=dark" />
+### **Security & DevOps Tools**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+### **Security-Focused Programming**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+
+### **Security & Monitoring Tools**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 </div>
+
+---
+
+## 🏗️ System Design & Security Architecture Learning
 
 <div align="center">
 
-### **Programming Languages (Comfortable)**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-4169E1?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### **Tools & Technologies (Learning)**
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker_Basics-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-4169E1?style=for-the-badge&logo=tensorflow&logoColor=white)
+```mermaid
+graph TB
+    A[Security Requirements] --> B[Threat Modeling]
+    B --> C[Secure Architecture Design]
+    C --> D[Implementation & Automation]
+    D --> E[Continuous Monitoring]
+    E --> F[Incident Response]
+    F --> A
+    
+    style A fill:#4169E1
+    style C fill:#6495ED
+    style E fill:#1E90FF
+```
 
 </div>
 
-### **What I Know & What I'm Learning**
-- **✅ Strong Foundation**: Python programming, C/C++, Data structures & algorithms
-- **✅ Research Skills**: Machine learning, data analysis, scientific computing
-- **🌱 Currently Learning**: Linux administration, Basic Docker, Git workflows
-- **📚 Studying**: Network security fundamentals, Basic cloud concepts (AWS)
-- **🎯 Next Goals**: CI/CD pipelines, Infrastructure as Code basics, Security automation
-- **💡 Interested In**: Container security, Cloud security, DevOps best practices
+### 🎯 **Current System Design Focus Areas**
+
+| Component | Learning Focus | Security Integration |
+|-----------|---------------|---------------------|
+| **Microservices Security** | Service mesh, API gateways | mTLS, OAuth 2.0, Rate limiting |
+| **Container Security** | Docker hardening, K8s policies | Image scanning, Runtime protection |
+| **Cloud Security** | AWS/Azure security services | IAM, Network segmentation, Encryption |
+| **CI/CD Security** | Secure pipelines, SAST/DAST | Secret management, Vulnerability scanning |
+| **Infrastructure Security** | IaC security, Configuration management | Policy as Code, Compliance automation |
 
 ---
 
@@ -79,8 +95,7 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Satya37x1112&theme=github-dark-blue&border_radius=12&background=0D1117&border=21262D&stroke=4169E1&ring=4169E1&fire=6495ED&currStreakLabel=4169E1" alt="GitHub Streak"/>
 
-<!-- ACTUAL GitHub Contribution Calendar (Green Dots) -->
-<img src="https://ghchart.rshah.org/4169E1/Satya37x1112" alt="Satya37x1112's GitHub Contribution Graph" width="100%" />
+<img src="https://ghchart.rshah.org/4169E1/Satya37x1112" alt="GitHub Contribution Graph" width="100%" />
 
 <img src="https://github-profile-trophy.vercel.app/?username=Satya37x1112&theme=darkhub&no-frame=true&row=1&column=6&margin-w=15&margin-h=15" />
 
@@ -99,6 +114,7 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 [![Team Security Project](https://github-readme-stats.vercel.app/api/pin/?username=rajtilak-2020&repo=Suraksha-Mirage_NexTech1.0&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/rajtilak-2020/Suraksha-Mirage_NexTech1.0)
 
 </div>
+
 <div>
   <a href="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio"><img src="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio.svg" alt="wakatime"></a>
 </div>
@@ -109,8 +125,25 @@ Currently pursuing research in Physics-Informed Neural Networks (PINNs) at NISER
 + 🎓 NISER Research Scholar - Physics-Informed Neural Networks (PINNs)
 + 💻 Strong Programming Foundation - Python, C++, Java (Academic & Personal Projects)
 + 🐧 Linux Learning - Basic system administration and command line proficiency
-+ 🔐 Security Interest - Starting cybersecurity and ethical hacking journey
++ 🔐 Security Interest - Starting cybersecurity and DevSecOps journey
 + 📊 Research Background - Analytical thinking and scientific problem-solving
 + 🌱 DevSecOps Beginner - Actively learning Docker, CI/CD, and cloud basics
-+ 🎯 Future Goal - First DevSecOps role by 2025-2026
++ 🏗️ System Design - Learning scalable architecture and security patterns
++ 🎯 Future Goal - First DevSecOps Engineering role by 2025-2026
+```
 
+---
+
+<div align="center">
+
+### 🤝 Connect & Collaborate
+
+[![Security Discussions](https://img.shields.io/badge/Security_Discussions-4169E1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Satya37x1112/Satya37x1112/discussions)
+[![DevSecOps Blog](https://img.shields.io/badge/DevSecOps_Blog-6495ED?style=for-the-badge&logo=medium&logoColor=white)](#)
+[![Security Newsletter](https://img.shields.io/badge/Security_Updates-1E90FF?style=for-the-badge&logo=substack&logoColor=white)](#)
+
+**Let's build secure systems together! 🚀🔐**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,9,12,17&height=120&section=footer" />
+
+</div>
