@@ -1,4 +1,4 @@
-[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-%23EA4AAA)](https://github.com/sponsors/Satya37x1112)
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,9,12,17&height=200&section=header&text=Satya%20Sarthak%20Manohari&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Aspiring%20DevSecOps%20Engineer%20•%20System%20Design%20Enthusiast%20•%20Security%20Automation%20Learner&descAlignY=51&descAlign=50" />
@@ -15,6 +15,8 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-%23EA4AAA)](https://github.com/sponsors/Satya37x1112)
 
 ## 🛡️ DevSecOps Engineer in the Making
 
