@@ -94,20 +94,38 @@ graph TB
 
 <div align="center">
 
-## GitHub Stats & Learning Progress
+## 🔥 GitHub Stats & Contribution Streak
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Satya37x1112&show_icons=true&theme=github_dark_dimmed&include_all_commits=true&count_private=true&border_radius=12&bg_color=0D1117&title_color=4169E1&icon_color=4169E1&text_color=C9D1D9&border_color=21262D"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satya37x1112&layout=compact&langs_count=8&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Satya37x1112&theme=github-dark-blue&border_radius=12&background=0D1117&border=21262D&stroke=4169E1&ring=4169E1&fire=6495ED&currStreakLabel=4169E1" alt="GitHub Streak"/>
+<!-- Activity Graph - Shows coding activity pattern -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Satya37x1112&custom_title=Satya's%20Contribution%20Graph&bg_color=0D1117&color=4169E1&line=6495ED&point=FFFFFF&area_color=4169E1&title_color=FFFFFF&area=true&hide_border=true&radius=16" width="100%"/>
 
+<br>
+
+<!-- Stats Cards Row -->
+<img height="180em" src="https://github-readme-stats. vercel.app/api?username=Satya37x1112&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&icon_color=6495ED&hide_border=true&ring_color=4169E1"/>
+<img height="180em" src="https://github-readme-stats.vercel. app/api/top-langs/? username=Satya37x1112&layout=compact&langs_count=8&theme=transparent&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&hide_border=true"/>
+
+<br><br>
+
+<!-- Modern Contribution Calendar with Custom Color -->
 <img src="https://ghchart.rshah.org/4169E1/Satya37x1112" alt="GitHub Contribution Graph" width="100%" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Satya37x1112&theme=darkhub&no-frame=true&row=1&column=6&margin-w=15&margin-h=15" />
+<br><br>
+
+<!-- Trophies with Modern Dark Theme -->
+<img src="https://github-profile-trophy.vercel.app/? username=Satya37x1112&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6&margin-w=15&margin-h=15" />
+
+<!-- Profile Views Counter with Modern Badge -->
+<br>
+<img src="https://komarev.com/ghpvc/?username=Satya37x1112&style=for-the-badge&color=4169E1&label=PROFILE+VIEWS"/>
 
 </div>
 
 ---
+
+<div align="center">
+
 
 <div align="center">
 
