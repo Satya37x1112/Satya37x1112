@@ -131,11 +131,7 @@ graph TB
 
 ## My Projects & Research Work
 
-[![Portfolio Website](https://github-readme-stats.vercel.app/api/pin/?username=Satya37x1112&repo=My_Portfolio-main&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/Satya37x1112/My_Portfolio-main)
-[![DSA Practice](https://github-readme-stats.vercel.app/api/pin/?username=Satya37x1112&repo=DSA_Practice_Geeks_for_Geeks&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/Satya37x1112/DSA_Practice_Geeks_for_Geeks)
-
-[![C++ Projects](https://github-readme-stats.vercel.app/api/pin/?username=Satya37x1112&repo=C--&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/Satya37x1112/C--)
-[![Team Security Project](https://github-readme-stats.vercel.app/api/pin/?username=rajtilak-2020&repo=Suraksha-Mirage_NexTech1.0&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/rajtilak-2020/Suraksha-Mirage_NexTech1.0)
+**Coming Soon!!!!!!!**
 
 </div>
 
