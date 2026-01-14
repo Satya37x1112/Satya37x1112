@@ -18,11 +18,11 @@
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-%23EA4AAA)](https://github.com/sponsors/Satya37x1112)
 
-## 🛡️ DevSecOps Engineer in the Making
+## DevSecOps Engineer in the Making
 
 From Physics-Informed Neural Networks research at NISER to building secure, scalable systems - I'm on a mission to integrate security into every layer of the software development lifecycle. My analytical research background provides a unique perspective on systematic approaches to security automation and infrastructure design.
 
-### 🎯 **Security Engineering Vision**
+### **Security Engineering Vision**
 - **Shift-Left Security**: Embedding security controls from code to cloud
 - **Infrastructure as Code**: Treating security policies as code artifacts
 - **Zero Trust Architecture**: Designing systems with security-first principles
@@ -57,7 +57,7 @@ From Physics-Informed Neural Networks research at NISER to building secure, scal
 
 ---
 
-## 🏗️ System Design & Security Architecture Learning
+## System Design & Security Architecture Learning
 
 <div align="center">
 
@@ -80,7 +80,7 @@ graph TB
 
 </div>
 
-### 🎯 **Current System Design Focus Areas**
+### **Current System Design Focus Areas**
 
 | Component | Learning Focus | Security Integration |
 |-----------|---------------|---------------------|
@@ -94,7 +94,7 @@ graph TB
 
 <div align="center">
 
-## 📊 GitHub Stats & Learning Progress
+## GitHub Stats & Learning Progress
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Satya37x1112&show_icons=true&theme=github_dark_dimmed&include_all_commits=true&count_private=true&border_radius=12&bg_color=0D1117&title_color=4169E1&icon_color=4169E1&text_color=C9D1D9&border_color=21262D"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satya37x1112&layout=compact&langs_count=8&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D"/>
@@ -111,7 +111,7 @@ graph TB
 
 <div align="center">
 
-## 🎯 My Projects & Research Work
+## My Projects & Research Work
 
 [![Portfolio Website](https://github-readme-stats.vercel.app/api/pin/?username=Satya37x1112&repo=My_Portfolio-main&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/Satya37x1112/My_Portfolio-main)
 [![DSA Practice](https://github-readme-stats.vercel.app/api/pin/?username=Satya37x1112&repo=DSA_Practice_Geeks_for_Geeks&theme=github_dark_dimmed&border_radius=12&bg_color=0D1117&title_color=4169E1&text_color=C9D1D9&border_color=21262D)](https://github.com/Satya37x1112/DSA_Practice_Geeks_for_Geeks)
@@ -125,17 +125,17 @@ graph TB
   <a href="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio"><img src="https://wakatime.com/badge/github/Satya37x1112/My_Portfolio.svg" alt="wakatime"></a>
 </div>
 
-## 🏆 Current Status & Learning Milestones
+## Current Status & Learning Milestones
 
 ```diff
-+ 🎓 NISER Research Scholar - Physics-Informed Neural Networks (PINNs)
-+ 💻 Strong Programming Foundation - Python, C++, Java (Academic & Personal Projects)
-+ 🐧 Linux Learning - Basic system administration and command line proficiency
-+ 🔐 Security Interest - Starting cybersecurity and DevSecOps journey
-+ 📊 Research Background - Analytical thinking and scientific problem-solving
-+ 🌱 DevSecOps Beginner - Actively learning Docker, CI/CD, and cloud basics
-+ 🏗️ System Design - Learning scalable architecture and security patterns
-+ 🎯 Future Goal - First DevSecOps Engineering role by 2025-2026
++ NISER Research Scholar - Physics-Informed Neural Networks (PINNs)
++ Strong Programming Foundation - Python, C++, Java (Academic & Personal Projects)
++ Linux Learning - Basic system administration and command line proficiency
++ Security Interest - Starting cybersecurity and DevSecOps journey
++ Research Background - Analytical thinking and scientific problem-solving
++ DevSecOps Beginner - Actively learning Docker, CI/CD, and cloud basics
++ System Design - Learning scalable architecture and security patterns
++ Future Goal - First DevSecOps Engineering role by 2025-2026
 ```
 
 ---
@@ -148,7 +148,7 @@ graph TB
 [![DevSecOps Blog](https://img.shields.io/badge/DevSecOps_Blog-6495ED?style=for-the-badge&logo=medium&logoColor=white)](#)
 [![Security Newsletter](https://img.shields.io/badge/Security_Updates-1E90FF?style=for-the-badge&logo=substack&logoColor=white)](#)
 
-**Let's build secure systems together! 🚀🔐**
+**Let's build secure systems together!**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,9,12,17&height=120&section=footer" />
 
