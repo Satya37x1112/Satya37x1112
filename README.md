@@ -32,7 +32,7 @@ From Physics-Informed Neural Networks research at NISER to building secure, scal
 
 <div align="center">
 
-## 🔧 DevSecOps Technology Stack
+## DevSecOps Technology Stack
 
 ### **Security & DevOps Tools**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
