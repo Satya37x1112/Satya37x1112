@@ -96,7 +96,6 @@ graph TB
 
 ## 🔥 GitHub Stats & Contribution Streak
 
-
 <!-- Activity Graph - Shows coding activity pattern -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Satya37x1112&custom_title=Satya's%20Contribution%20Graph&bg_color=0D1117&color=4169E1&line=6495ED&point=FFFFFF&area_color=4169E1&title_color=FFFFFF&area=true&hide_border=true&radius=16" width="100%"/>
 
