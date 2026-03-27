@@ -107,7 +107,7 @@ graph TB
 
 <br><br>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=&theme=hacker&hide_border=true&date_format=%5BY%20%5DM%20j&fire=EBA720)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Satya37x1112&theme=hacker&hide_border=true&date_format=%5BY%20%5DM%20j&fire=EBA720)](https://git.io/streak-stats)
 
 <!-- Modern Contribution Calendar with Custom Color -->
 <img src="https://ghchart.rshah.org/4169E1/Satya37x1112" alt="GitHub Contribution Graph" width="100%" />
