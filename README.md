@@ -107,9 +107,6 @@ graph TB
 
 <br><br>
 
-## GitHub Stats
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Satya37x1112&theme=dark&hide_border=true&ring=22c55e&fire=f97316&currStreakLabel=22c55e&sideLabels=22c55e&currStreakNum=22c55e&sideNums=22c55e&background=111111&dates=888888)
 
 <!-- Modern Contribution Calendar with Custom Color -->
 <img src="https://ghchart.rshah.org/4169E1/Satya37x1112" alt="GitHub Contribution Graph" width="100%" />
