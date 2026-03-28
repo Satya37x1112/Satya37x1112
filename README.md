@@ -30,6 +30,7 @@ From Physics-Informed Neural Networks research at NISER to building secure, scal
 
 ---
 
+![3D Contribution Graph](./profile-3d-contrib/profile-Northern-Hemisphere.svg)
 <div align="center">
 
 ## DevSecOps Technology Stack
