@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
           USERNAME: Satya37x1112
       - name: Commit & Push
         run: |
