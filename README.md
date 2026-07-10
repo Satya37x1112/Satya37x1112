@@ -19,12 +19,9 @@
 
 <img src="prof0.png" width="100%" alt="ASCII portrait of Satya Sarthak Manohari" />
 
-<br/><br/>
+<br/>
 
 ### `Satya37x1112`
-
-[![Followers](https://img.shields.io/github/followers/Satya37x1112?label=Followers&style=for-the-badge&color=58A6FF&labelColor=161B22)](https://github.com/Satya37x1112)
-[![Profile Views](https://komarev.com/ghpvc/?username=Satya37x1112&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS)](https://github.com/Satya37x1112)
 
 </td>
 
@@ -50,6 +47,6 @@ satya@github ──────────────────────�
   Tools ....................... Git, GitHub, Postman, VS Code
 
 ─ Current Focus ─────────────────────────────────────────────────────────
-  Target ...................... GATE CSE 2027 & 2028
+  Target ...................... GATE CSE 2027
   Focus Areas ................. DSA, Cybersecurity, DevSecOps, Backend Systems
 ─────────────────────────────────────────────────────────────────────────
