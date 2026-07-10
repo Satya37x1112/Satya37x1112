@@ -17,7 +17,7 @@
 <tr>
 <td width="38%" align="center">
 
-<img src="./assets/prof0.png" width="250" alt="ASCII portrait of Satya Sarthak Manohari" />
+<img src="prof0.png" width="250" alt="ASCII portrait of Satya Sarthak Manohari" />
 
 <br/><br/>
 
