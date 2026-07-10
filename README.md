@@ -15,17 +15,13 @@
 
 <table>
 <tr>
-<td width="40%" valign="top" align="center">
+<td width="35%" valign="top" align="center">
 
-<img src="prof0.png" width="100%" alt="ASCII portrait of Satya Sarthak Manohari" />
-
-<br/>
-
-### `Satya37x1112`
+<img src="prof0.png" width="100%" height="100%" style="object-fit: cover;" alt="ASCII portrait of Satya Sarthak Manohari" />
 
 </td>
 
-<td width="60%" valign="top">
+<td width="65%" valign="top">
 
 ```text
 satya@github ────────────────────────────────────────────────────────────
