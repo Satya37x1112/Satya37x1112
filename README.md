@@ -15,34 +15,32 @@
 
 <table>
 <tr>
-<td width="35%" valign="top" align="center">
+<td width="38%" valign="top" align="center">
 
-<img src="prof0.png" width="100%" height="100%" style="object-fit: cover;" alt="ASCII portrait of Satya Sarthak Manohari" />
+<img src="prof0.png" width="100%" alt="Satya Sarthak Manohari" />
 
 </td>
 
-<td width="65%" valign="top">
+<td width="62%" valign="top">
 
 ```text
-satya@github ────────────────────────────────────────────────────────────
-  Name ........................ Satya Sarthak Manohari
-  Role ........................ Cybersecurity Student | Backend Engineer
-  Location .................... Odisha, India
-  Education ................... B.Tech CSE (Cybersecurity)
-  Research .................... Physics-Informed Neural Networks @ NISER
-  Work ........................ Backend Engineer @ Ekelon Labs
-  Goal ........................ "Build secure, scalable, & resilient systems."
+satya@github ───────────────────────────────────────
+  Name ......... Satya Sarthak Manohari
+  Role ......... Cybersecurity | Backend Engineer
+  Location ..... Odisha, India
+  Education .... B.Tech CSE (Cybersecurity)
+  Research ..... PINNs @ NISER
+  Work ......... Backend Engineer @ Ekelon Labs
+  Goal ......... "Build secure, resilient systems."
 
-─ Tech Stack ────────────────────────────────────────────────────────────
-  Languages ................... C, C++, Java, JavaScript, TypeScript, Python
-  Backend ..................... Node.js, Express.js, Next.js, Flask
-  Database .................... PostgreSQL, MySQL, MongoDB
-  Cloud ....................... AWS, Vercel
-  DevOps ...................... Docker, GitHub Actions, Linux
-  Security .................... Kali Linux, Wireshark, MITRE ATT&CK, SIEM
-  Tools ....................... Git, GitHub, Postman, VS Code
+─ Tech Stack ───────────────────────────────────────
+  Languages .... C, C++, Java, JS/TS, Python
+  Backend ...... Node, Express, Next, Flask
+  Database ..... PostgreSQL, MySQL, MongoDB
+  Cloud/DevOps . AWS, Docker, GitHub Actions
+  Security ..... Kali Linux, Wireshark, SIEM
 
-─ Current Focus ─────────────────────────────────────────────────────────
-  Target ...................... GATE CSE 2027
-  Focus Areas ................. DSA, Cybersecurity, DevSecOps, Backend Systems
-─────────────────────────────────────────────────────────────────────────
+─ Current Focus ────────────────────────────────────
+  Target ....... GATE CSE 2027
+  Focus ........ DSA & Secure Backend Systems
+────────────────────────────────────────────────────
