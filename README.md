@@ -15,55 +15,41 @@
 
 <table>
 <tr>
-<td width="38%" align="center">
+<td width="40%" valign="top" align="center">
 
-<img src="prof0.png" width="250" alt="ASCII portrait of Satya Sarthak Manohari" />
+<img src="prof0.png" width="100%" alt="ASCII portrait of Satya Sarthak Manohari" />
 
 <br/><br/>
 
 ### `Satya37x1112`
 
 [![Followers](https://img.shields.io/github/followers/Satya37x1112?label=Followers&style=for-the-badge&color=58A6FF&labelColor=161B22)](https://github.com/Satya37x1112)
-
 [![Profile Views](https://komarev.com/ghpvc/?username=Satya37x1112&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS)](https://github.com/Satya37x1112)
-
-<br/>
-
-### Current Focus
-
-`GATE CSE 2027`  
-`DSA & Problem Solving`  
-`Cybersecurity`  
-`DevSecOps Fundamentals`  
-`Secure Backend Systems`
 
 </td>
 
-<td width="62%">
+<td width="60%" valign="top">
 
-```bash
-┌──(satya㉿github)-[~/profile]
-└─$ whoami
+```text
+satya@github ────────────────────────────────────────────────────────────
+  Name ........................ Satya Sarthak Manohari
+  Role ........................ Cybersecurity Student | Backend Engineer
+  Location .................... Odisha, India
+  Education ................... B.Tech CSE (Cybersecurity)
+  Research .................... Physics-Informed Neural Networks @ NISER
+  Work ........................ Backend Engineer @ Ekelon Labs
+  Goal ........................ "Build secure, scalable, & resilient systems."
 
-Name       : Satya Sarthak Manohari
-Role       : Cybersecurity Student | Backend Engineer
-Location   : Odisha, India
-Education  : B.Tech CSE (Cybersecurity)
-Research   : Physics-Informed Neural Networks @ NISER
-Work       : Backend Engineer @ Ekelon Labs
+─ Tech Stack ────────────────────────────────────────────────────────────
+  Languages ................... C, C++, Java, JavaScript, TypeScript, Python
+  Backend ..................... Node.js, Express.js, Next.js, Flask
+  Database .................... PostgreSQL, MySQL, MongoDB
+  Cloud ....................... AWS, Vercel
+  DevOps ...................... Docker, GitHub Actions, Linux
+  Security .................... Kali Linux, Wireshark, MITRE ATT&CK, SIEM
+  Tools ....................... Git, GitHub, Postman, VS Code
 
-┌──(satya㉿github)-[~/stack]
-└─$ cat technologies.txt
-
-Languages  : C, C++, Java, JavaScript, TypeScript, Python
-Backend    : Node.js, Express.js, Next.js, Flask
-Database   : PostgreSQL, MySQL, MongoDB
-Cloud      : AWS, Vercel
-DevOps     : Docker, GitHub Actions, Linux
-Security   : Kali Linux, Wireshark, MITRE ATT&CK, SIEM
-Tools      : Git, GitHub, Postman, VS Code
-
-┌──(satya㉿github)-[~/mission]
-└─$ echo $GOAL
-
-"Build secure, scalable, and resilient systems."
+─ Current Focus ─────────────────────────────────────────────────────────
+  Target ...................... GATE CSE 2027 & 2028
+  Focus Areas ................. DSA, Cybersecurity, DevSecOps, Backend Systems
+─────────────────────────────────────────────────────────────────────────
