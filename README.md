@@ -17,7 +17,7 @@
 <tr>
 <td width="38%" align="center">
 
-<img src="https://avatars.githubusercontent.com/Satya37x1112?v=4" width="190" style="border-radius:50%;" />
+<img src="./assets/prof0.png" width="250" alt="ASCII portrait of Satya Sarthak Manohari" />
 
 <br/><br/>
 
