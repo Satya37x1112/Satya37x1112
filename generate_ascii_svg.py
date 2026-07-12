@@ -94,8 +94,8 @@ text, tspan {{white-space: pre;}}
 <tspan x="410" y="430">  <tspan class="key">Target</tspan>        : <tspan class="value">GATE CSE 2027 &amp; 2028</tspan></tspan>
 <tspan x="410" y="450">  <tspan class="key">Focus</tspan>         : <tspan class="value">DSA &amp; Secure Backend Systems</tspan></tspan>
 <tspan x="410" y="480" class="cc">─ GitHub Stats ─────────────────────────────────────</tspan>
-<tspan x="410" y="505">  <tspan class="key">Repos</tspan>         : <tspan class="value" id="repo_data">—</tspan> (<tspan class="value" id="contrib_data">—</tspan> contributed)</tspan><tspan x="725">| <tspan class="key">Stars</tspan>     : <tspan class="value" id="star_data">—</tspan></tspan>
-<tspan x="410" y="525">  <tspan class="key">Commits</tspan>       : <tspan class="value" id="commit_data">—</tspan></tspan><tspan x="725">| <tspan class="key">Followers</tspan> : <tspan class="value" id="follower_data">—</tspan></tspan>
+<tspan x="410" y="505">  <tspan class="key">Repos</tspan>         : <tspan class="value" id="repo_data">—</tspan> (<tspan class="value" id="contrib_data">—</tspan> contributed)</tspan><tspan x="785">| <tspan class="key">Stars</tspan>     : <tspan class="value" id="star_data">—</tspan></tspan>
+<tspan x="410" y="525">  <tspan class="key">Commits</tspan>       : <tspan class="value" id="commit_data">—</tspan></tspan><tspan x="785">| <tspan class="key">Followers</tspan> : <tspan class="value" id="follower_data">—</tspan></tspan>
 <tspan x="410" y="545">  <tspan class="key">Lines of Code</tspan> : <tspan class="value" id="loc_data">—</tspan> ( <tspan class="addColor" id="loc_add">0</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor" id="loc_del">0</tspan><tspan class="delColor">--</tspan> )</tspan>
 </text>
 </svg>
