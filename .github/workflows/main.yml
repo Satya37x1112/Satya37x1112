@@ -1,6 +1,9 @@
 name: Update Profile Stats and 3D Contrib
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Runs every 6 hours to keep both stats and 3D contribution graphs updated
     - cron: '0 */6 * * *'
