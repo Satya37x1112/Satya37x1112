@@ -678,7 +678,35 @@ def formatter(query_type, difference, funct_return=False, whitespace=0):
     return funct_return
 
 
+def update_readme_cache_buster():
+    """
+    Updates the version query parameter in README.md's SVG links
+    to bust GitHub Camo cache.
+    """
+    import re
+    import time
+    readme_path = "README.md"
+    if not os.path.exists(readme_path):
+        return
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    # Ensure initial ?v=0 is present if not already there
+    if "dark_mode.svg?v=" not in content:
+        content = content.replace("dark_mode.svg", "dark_mode.svg?v=0")
+    if "light_mode.svg?v=" not in content:
+        content = content.replace("light_mode.svg", "light_mode.svg?v=0")
+
+    timestamp = int(time.time())
+    new_content = re.sub(r'(dark_mode\.svg\?v=)\d+', rf'\g<1>{timestamp}', content)
+    new_content = re.sub(r'(light_mode\.svg\?v=)\d+', rf'\g<1>{timestamp}', new_content)
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(new_content)
+
+
 # ─── Main Entry Point ────────────────────────────────────────────────────────
+
 
 
 if __name__ == "__main__":
@@ -740,6 +768,9 @@ if __name__ == "__main__":
             follower_data,
             total_loc[:-1],
         )
+
+    # ── Step 7.5: Update cache-buster query parameters in README.md ───────
+    update_readme_cache_buster()
 
     # ── Step 8: Print performance summary ─────────────────────────────────
     total_time = (
