@@ -30,6 +30,7 @@ def generate_svg(theme_name, image_uri):
     """Creates the complete SVG string based on the theme and embedded image URI."""
     if theme_name == "dark":
         bg_color = "#161b22"
+        stroke_color = "#30363d"
         text_color = "#c9d1d9"
         key_color = "#ffa657"
         value_color = "#a5d6ff"
@@ -39,6 +40,7 @@ def generate_svg(theme_name, image_uri):
     else:
         # light mode
         bg_color = "#ffffff"
+        stroke_color = "#d0d7de"
         text_color = "#24292f"
         key_color = "#953800"
         value_color = "#0a3069"
@@ -47,7 +49,12 @@ def generate_svg(theme_name, image_uri):
         cc_color = "#57606a"
 
     return f"""<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="580px" font-size="16px">
+<defs>
+  <clipPath id="image-clip">
+    <rect x="20" y="20" width="360" height="540" rx="12" ry="12" />
+  </clipPath>
+</defs>
 <style>
 @font-face {{
   src: local('Consolas'), local('Consolas Bold');
@@ -63,34 +70,33 @@ def generate_svg(theme_name, image_uri):
 .cc {{fill: {cc_color};}}
 text, tspan {{white-space: pre;}}
 </style>
-<rect width="985px" height="530px" fill="{bg_color}" rx="15"/>
-<image x="15" y="15" width="360" height="500" preserveAspectRatio="xMidYMid meet" href="{image_uri}"/>
-<text x="390" y="30" fill="{text_color}">
-<tspan x="390" y="30">satya@github</tspan> ─────────────────────────────────────
-<tspan x="390" y="50">  <tspan class="key">Name</tspan> ......... <tspan class="value">Satya Sarthak Manohari</tspan></tspan>
-<tspan x="390" y="70">  <tspan class="key">Role</tspan> ......... <tspan class="value">Cybersecurity | Backend Engineer</tspan></tspan>
-<tspan x="390" y="90">  <tspan class="key">Location</tspan> ..... <tspan class="value">Odisha, India</tspan></tspan>
-<tspan x="390" y="110">  <tspan class="key">Age</tspan> .......... <tspan class="value" id="age_data">—</tspan></tspan>
-<tspan x="390" y="130">  <tspan class="key">Uptime</tspan> ....... <tspan class="value" id="uptime_data">—</tspan></tspan>
-<tspan x="390" y="150">  <tspan class="key">Education</tspan> .... <tspan class="value">B.Tech CSE (Cybersecurity) at SSU</tspan></tspan>
-<tspan x="390" y="170">  <tspan class="key">Internship</tspan> ... <tspan class="value">NISER, Soilveda, CyberDojo</tspan></tspan>
-<tspan x="390" y="190">  <tspan class="key">Work</tspan> ......... <tspan class="value">Backend Engineer</tspan></tspan>
-<tspan x="390" y="210">  <tspan class="key">Goal</tspan> ......... <tspan class="value">"Build secure, resilient systems."</tspan></tspan>
-<tspan x="390" y="230"></tspan>
-<tspan x="390" y="250">─ Tech Stack ───────────────────────────────────────</tspan>
-<tspan x="390" y="270">  <tspan class="key">Languages</tspan> .... <tspan class="value">C, C++, Java, Python</tspan></tspan>
-<tspan x="390" y="290">  <tspan class="key">Backend</tspan> ...... <tspan class="value">Flask, Django, FastAPI</tspan></tspan>
-<tspan x="390" y="310">  <tspan class="key">Database</tspan> ..... <tspan class="value">PostgreSQL, MySQL, MongoDB</tspan></tspan>
-<tspan x="390" y="330">  <tspan class="key">Cloud/DevOps</tspan> . <tspan class="value">AWS (Certified Cloud Practitioner), Docker</tspan></tspan>
-<tspan x="390" y="350">  <tspan class="key">Security</tspan> ..... <tspan class="value">Kali Linux, Wireshark, SIEM</tspan></tspan>
-<tspan x="390" y="370"></tspan>
-<tspan x="390" y="390">─ Current Focus ────────────────────────────────────</tspan>
-<tspan x="390" y="410">  <tspan class="key">Target</tspan> ....... <tspan class="value">GATE CSE 2027 &amp; 2028</tspan></tspan>
-<tspan x="390" y="430">  <tspan class="key">Focus</tspan> ........ <tspan class="value">DSA &amp; Secure Backend Systems</tspan></tspan>
-<tspan x="390" y="450">─ GitHub Stats ─────────────────────────────────────</tspan>
-<tspan x="390" y="470">  <tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">—</tspan> {{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">—</tspan>}} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........... </tspan><tspan class="value" id="star_data">—</tspan></tspan>
-<tspan x="390" y="490">  <tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan><tspan class="value" id="commit_data">—</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">—</tspan></tspan>
-<tspan x="390" y="510">  <tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">—</tspan> ( <tspan class="addColor" id="loc_add">0</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">0</tspan><tspan class="delColor">--</tspan> )</tspan>
+<rect x="1" y="1" width="983px" height="578px" fill="{bg_color}" stroke="{stroke_color}" stroke-width="1.5" rx="20"/>
+<image x="20" y="20" width="360" height="540" clip-path="url(#image-clip)" preserveAspectRatio="xMidYMid meet" href="{image_uri}"/>
+<text x="410" y="45" fill="{text_color}">
+<tspan x="410" y="45" font-weight="bold"><tspan class="key">satya</tspan>@<tspan class="value">github</tspan></tspan>
+<tspan x="410" y="57" class="cc">────────────</tspan>
+<tspan x="410" y="80">  <tspan class="key">Name</tspan>          : <tspan class="value">Satya Sarthak Manohari</tspan></tspan>
+<tspan x="410" y="100">  <tspan class="key">Role</tspan>          : <tspan class="value">Cybersecurity | Backend Engineer</tspan></tspan>
+<tspan x="410" y="120">  <tspan class="key">Location</tspan>      : <tspan class="value">Odisha, India</tspan></tspan>
+<tspan x="410" y="140">  <tspan class="key">Age</tspan>           : <tspan class="value" id="age_data">—</tspan></tspan>
+<tspan x="410" y="160">  <tspan class="key">Uptime</tspan>        : <tspan class="value" id="uptime_data">—</tspan></tspan>
+<tspan x="410" y="180">  <tspan class="key">Education</tspan>     : <tspan class="value">B.Tech CSE (Cybersecurity) at SSU</tspan></tspan>
+<tspan x="410" y="200">  <tspan class="key">Internship</tspan>    : <tspan class="value">NISER, Soilveda, CyberDojo</tspan></tspan>
+<tspan x="410" y="220">  <tspan class="key">Work</tspan>          : <tspan class="value">Backend Engineer</tspan></tspan>
+<tspan x="410" y="240">  <tspan class="key">Goal</tspan>          : <tspan class="value">"Build secure, resilient systems."</tspan></tspan>
+<tspan x="410" y="270" class="cc">─ Tech Stack ───────────────────────────────────────</tspan>
+<tspan x="410" y="295">  <tspan class="key">Languages</tspan>     : <tspan class="value">C, C++, Java, Python</tspan></tspan>
+<tspan x="410" y="315">  <tspan class="key">Backend</tspan>       : <tspan class="value">Flask, Django, FastAPI</tspan></tspan>
+<tspan x="410" y="335">  <tspan class="key">Database</tspan>      : <tspan class="value">PostgreSQL, MySQL, MongoDB</tspan></tspan>
+<tspan x="410" y="355">  <tspan class="key">Cloud/DevOps</tspan>  : <tspan class="value">AWS (Certified Cloud Practitioner), Docker</tspan></tspan>
+<tspan x="410" y="375">  <tspan class="key">Security</tspan>      : <tspan class="value">Kali Linux, Wireshark, SIEM</tspan></tspan>
+<tspan x="410" y="405" class="cc">─ Current Focus ────────────────────────────────────</tspan>
+<tspan x="410" y="430">  <tspan class="key">Target</tspan>        : <tspan class="value">GATE CSE 2027 &amp; 2028</tspan></tspan>
+<tspan x="410" y="450">  <tspan class="key">Focus</tspan>         : <tspan class="value">DSA &amp; Secure Backend Systems</tspan></tspan>
+<tspan x="410" y="480" class="cc">─ GitHub Stats ─────────────────────────────────────</tspan>
+<tspan x="410" y="505">  <tspan class="key">Repos</tspan>         : <tspan class="value" id="repo_data">—</tspan> (<tspan class="value" id="contrib_data">—</tspan> contributed)</tspan><tspan x="725">| <tspan class="key">Stars</tspan>     : <tspan class="value" id="star_data">—</tspan></tspan>
+<tspan x="410" y="525">  <tspan class="key">Commits</tspan>       : <tspan class="value" id="commit_data">—</tspan></tspan><tspan x="725">| <tspan class="key">Followers</tspan> : <tspan class="value" id="follower_data">—</tspan></tspan>
+<tspan x="410" y="545">  <tspan class="key">Lines of Code</tspan> : <tspan class="value" id="loc_data">—</tspan> ( <tspan class="addColor" id="loc_add">0</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor" id="loc_del">0</tspan><tspan class="delColor">--</tspan> )</tspan>
 </text>
 </svg>
 """
