@@ -13,15 +13,13 @@
 
 ---
 
-<table>
-<tr>
-<td width="38%" valign="top" align="center">
+<div align="center">
 
-<img src="prof0.png" width="100%" alt="Satya Sarthak Manohari" />
+<img src="prof0_default.png" width="400" alt="ASCII Art Portrait" />
 
-</td>
+</div>
 
-<td width="62%" valign="top">
+---
 
 ```text
 satya@github ───────────────────────────────────────
@@ -46,14 +44,10 @@ satya@github ──────────────────────�
 ────────────────────────────────────────────────────
 ```
 
-</td>
-</tr>
-</table>
-
 ---
 
 <div align="center">
 
-<img alt="GitHub Stats Dashboard" src="dark_mode.svg" width="880" />
+<img src="./profile-3d-contrib/profile-night-green.svg" width="880" alt="3D Contribution Graph" />
 
 </div>
