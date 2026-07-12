@@ -9,7 +9,6 @@ temp_ascii*.txt
 # Intermediate/comparison images (keep only prof0.png and prof0_original.png)
 comparison.png
 comparison_grid.png
-prof0_default.png
 prof0_edges.png
 prof0_retro.png
 

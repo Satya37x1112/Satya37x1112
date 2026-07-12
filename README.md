@@ -26,16 +26,16 @@ satya@github ──────────────────────�
   Name ......... Satya Sarthak Manohari
   Role ......... Cybersecurity | Backend Engineer
   Location ..... Odisha, India
-  Education .... B.Tech CSE (Cybersecurity)
-  Research ..... PINNs @ NISER
-  Work ......... Backend Engineer @ Ekelon Labs
+  Education .... B.Tech CSE (Cybersecurity) at SSU
+  Internship ..... NISER, Soilveda, CyberDojo   
+  Work ......... Backend Engineer
   Goal ......... "Build secure, resilient systems."
 
 ─ Tech Stack ───────────────────────────────────────
-  Languages .... C, C++, Java, JS/TS, Python
-  Backend ...... Node, Express, Next, Flask
+  Languages .... C, C++, Java, Python
+  Backend ......  Flask, Django, FastAPI
   Database ..... PostgreSQL, MySQL, MongoDB
-  Cloud/DevOps . AWS, Docker, GitHub Actions
+  Cloud/DevOps . AWS (Certified Cloud Practitioner), Docker
   Security ..... Kali Linux, Wireshark, SIEM
 
 ─ Current Focus ────────────────────────────────────
