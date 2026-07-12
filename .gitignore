@@ -12,9 +12,7 @@ comparison_grid.png
 prof0_edges.png
 prof0_retro.png
 
-# Removed SVG dashboards (using profile-3d-contrib instead)
-light_mode.svg
-dark_mode.svg
+
 
 # OS files
 .DS_Store

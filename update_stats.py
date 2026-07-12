@@ -2,8 +2,8 @@
 update_stats.py — GitHub Profile Stats Automation for Satya37x1112
 
 Dynamically queries the GitHub GraphQL API to gather profile statistics
-(commits, stars, repos, LOC, followers) and writes them into the SVG dashboard
-file (dark_mode.svg).
+(commits, stars, repos, LOC, followers) and writes them into SVG dashboard
+files (dark_mode.svg and light_mode.svg).
 
 Originally based on Andrew6rant's today.py, refactored and tailored for
 the Satya37x1112 profile.
@@ -567,30 +567,32 @@ def follower_getter(username):
 
 
 def svg_overwrite(
-    filename, age_data, commit_data, star_data, repo_data, contrib_data,
-    follower_data, loc_data,
+    filename, age_data, uptime_data, commit_data, star_data, repo_data,
+    contrib_data, follower_data, loc_data,
 ):
     """
-    Parses an SVG file and updates text elements with fresh statistics.
-    Each statistic has a corresponding '_dots' element for dot-leader alignment.
-
-    Expected SVG element IDs:
-        commit_data, star_data, repo_data, contrib_data,
-        follower_data, loc_data, loc_add, loc_del
-        (each with a '_dots' counterpart)
+    Parses a neofetch-style SVG file and updates text elements with fresh statistics.
+    Uses monospace-justified dots for perfect alignment.
     """
     tree = etree.parse(filename)
     root = tree.getroot()
 
-    # Update each stat field with its value and dot-leader justification width.
-    # The 'length' parameter controls the total character width for alignment.
-    justify_format(root, "commit_data", commit_data, 22)
-    justify_format(root, "star_data", star_data, 14)
+    # Set age and uptime values (no length justification needed)
+    justify_format(root, "age_data", age_data)
+    justify_format(root, "uptime_data", uptime_data)
+
+    # Justify Repo and Star stats
     justify_format(root, "repo_data", repo_data, 6)
-    justify_format(root, "contrib_data", contrib_data)
+    justify_format(root, "star_data", star_data, 14)
+    justify_format(root, "contrib_data", contrib_data)  # no length justification needed
+
+    # Justify Commits and Followers
+    justify_format(root, "commit_data", commit_data, 23)
     justify_format(root, "follower_data", follower_data, 10)
+
+    # Justify Lines of Code (LOC)
     justify_format(root, "loc_data", loc_data[2], 9)
-    justify_format(root, "loc_add", loc_data[0])
+    justify_format(root, "loc_add", loc_data[0])  # no length justification needed
     justify_format(root, "loc_del", loc_data[1], 7)
 
     tree.write(filename, encoding="utf-8", xml_declaration=True)
@@ -598,38 +600,49 @@ def svg_overwrite(
 
 def justify_format(root, element_id, new_text, length=0):
     """
-    Updates the text of an SVG element and adjusts the dot-leader element
-    (element_id + '_dots') to right-justify the value within a fixed width.
-
-    Args:
-        root: The parsed SVG root element.
-        element_id: The ID of the SVG text element to update.
-        new_text: The new value (int or str).
-        length: Total character width for alignment. If 0, no dots are added.
+    Updates the text of the element, and modifies the amount of dots in the
+    corresponding dot leader element (f"{element_id}_dots") to justify the alignment.
     """
     if isinstance(new_text, int):
         new_text = "{:,}".format(new_text)
     new_text = str(new_text)
-    _find_and_replace(root, element_id, new_text)
+    _set_text(root, element_id, new_text)
+    
+    if length > 0:
+        just_len = max(0, length - len(new_text))
+        if just_len <= 2:
+            dot_map = {0: '', 1: ' ', 2: '. '}
+            dot_string = dot_map[just_len]
+        else:
+            dot_string = ' ' + ('.' * just_len) + ' '
+        _set_text(root, f"{element_id}_dots", dot_string)
 
-    # Calculate how many dots are needed for alignment
-    just_len = max(0, length - len(new_text))
-    if just_len <= 2:
-        dot_map = {0: "", 1: " ", 2: ". "}
-        dot_string = dot_map[just_len]
-    else:
-        dot_string = " " + ("." * just_len) + " "
-    _find_and_replace(root, f"{element_id}_dots", dot_string)
 
-
-def _find_and_replace(root, element_id, new_text):
+def _set_text(root, element_id, new_text):
     """
     Locates an SVG element by its 'id' attribute and replaces its text content.
     Silently skips if the element is not found (graceful degradation).
     """
     element = root.find(f".//*[@id='{element_id}']")
     if element is not None:
-        element.text = new_text
+        element.text = str(new_text)
+
+
+def compute_uptime(acc_date_str):
+    """
+    Computes account uptime from the GitHub account creation date.
+    Returns a human-readable string like '5 years, 8 months'.
+    """
+    created = datetime.datetime.strptime(acc_date_str[:10], "%Y-%m-%d")
+    diff = relativedelta.relativedelta(datetime.datetime.today(), created)
+    parts = []
+    if diff.years:
+        parts.append(f"{diff.years} yr{'s' if diff.years != 1 else ''}")
+    if diff.months:
+        parts.append(f"{diff.months} mo{'s' if diff.months != 1 else ''}")
+    if diff.days and not diff.years:
+        parts.append(f"{diff.days} day{'s' if diff.days != 1 else ''}")
+    return ", ".join(parts) if parts else "< 1 month"
 
 
 # ─── Performance / Logging Helpers ────────────────────────────────────────────
@@ -684,8 +697,8 @@ if __name__ == "__main__":
 
     # ── Step 2: Calculate age from birthday ───────────────────────────────
     # UPDATE THIS DATE to your actual birthday: datetime.datetime(YYYY, M, D)
-    # Currently set to March 15, 2004.
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2004, 3, 15))
+    # Currently set to May 25, 2005.
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2005, 5, 25))
     formatter("age calculation", age_time)
 
     # ── Step 3: Count lines of code across all accessible repos ───────────
@@ -711,19 +724,24 @@ if __name__ == "__main__":
     for index in range(len(total_loc) - 1):
         total_loc[index] = "{:,}".format(total_loc[index])
 
-    # ── Step 6: Write stats into the SVG dashboard file ────────────────────
-    svg_overwrite(
-        "dark_mode.svg",
-        age_data,
-        commit_data,
-        star_data,
-        repo_data,
-        contrib_data,
-        follower_data,
-        total_loc[:-1],
-    )
+    # ── Step 6: Compute account uptime ─────────────────────────────────────
+    uptime_data = compute_uptime(acc_date)
 
-    # ── Step 7: Print performance summary ─────────────────────────────────
+    # ── Step 7: Write stats into both SVG dashboard files ─────────────────
+    for svg_file in ("dark_mode.svg", "light_mode.svg"):
+        svg_overwrite(
+            svg_file,
+            age_data,
+            uptime_data,
+            commit_data,
+            star_data,
+            repo_data,
+            contrib_data,
+            follower_data,
+            total_loc[:-1],
+        )
+
+    # ── Step 8: Print performance summary ─────────────────────────────────
     total_time = (
         user_time
         + age_time

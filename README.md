@@ -15,34 +15,13 @@
 
 <div align="center">
 
-<img src="prof0_default.png" width="400" alt="ASCII Art Portrait" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="GitHub Stats — Neofetch Style" src="dark_mode.svg" width="985" />
+</picture>
 
 </div>
-
----
-
-```text
-satya@github ───────────────────────────────────────
-  Name ......... Satya Sarthak Manohari
-  Role ......... Cybersecurity | Backend Engineer
-  Location ..... Odisha, India
-  Education .... B.Tech CSE (Cybersecurity) at SSU
-  Internship ..... NISER, Soilveda, CyberDojo   
-  Work ......... Backend Engineer
-  Goal ......... "Build secure, resilient systems."
-
-─ Tech Stack ───────────────────────────────────────
-  Languages .... C, C++, Java, Python
-  Backend ......  Flask, Django, FastAPI
-  Database ..... PostgreSQL, MySQL, MongoDB
-  Cloud/DevOps . AWS (Certified Cloud Practitioner), Docker
-  Security ..... Kali Linux, Wireshark, SIEM
-
-─ Current Focus ────────────────────────────────────
-  Target ....... GATE CSE 2027 & 2028
-  Focus ........ DSA & Secure Backend Systems
-────────────────────────────────────────────────────
-```
 
 ---
 
