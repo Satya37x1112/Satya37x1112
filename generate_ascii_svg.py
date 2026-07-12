@@ -1,5 +1,5 @@
 """
-generate_ascii_svg.py — Generates dark_mode.svg and light_mode.svg dashboards
+generate_ascii_svg.py — Generates dark_mode.svg dashboard
 with true-color ASCII art from the `ascii-view` C engine.
 
 Pipeline:
@@ -20,7 +20,7 @@ Usage:
     python3 generate_ascii_svg.py
 """
 
-import colorsys
+
 import os
 import re
 import subprocess
@@ -107,27 +107,6 @@ def parse_ansi_file(filepath):
 # ─── SVG Builder ─────────────────────────────────────────────────────────────
 
 
-def adapt_color_for_light_mode(r, g, b):
-    """
-    Converts a color designed for dark backgrounds into one that looks
-    vivid on a white background.
-
-    Strategy: convert to HSV, boost saturation slightly, and clamp
-    value (brightness) to ≤0.35 so characters stay dark and readable
-    on white while preserving their hue.
-    """
-    # Normalize to 0-1 range
-    rn, gn, bn = r / 255.0, g / 255.0, b / 255.0
-    h, s, v = colorsys.rgb_to_hsv(rn, gn, bn)
-
-    # Boost saturation for vividness on white
-    s = min(1.0, s * 1.3)
-
-    # Clamp brightness low — dark characters on white background
-    v = min(0.35, v * 0.4)
-
-    rn, gn, bn = colorsys.hsv_to_rgb(h, s, v)
-    return int(rn * 255), int(gn * 255), int(bn * 255)
 
 
 def _color_str(r, g, b):
@@ -135,25 +114,17 @@ def _color_str(r, g, b):
     return f"rgb({r},{g},{b})"
 
 
-def build_svg(output_path, ascii_rows, theme="dark"):
+def build_svg(output_path, ascii_rows):
     """
     Builds a complete SVG with true-color ASCII art portrait (left)
     and stats panel (right).
     """
     # ── Theme colors ──────────────────────────────────────────────────────
-    themes = {
-        "dark": {
-            "bg": "#0d1117", "text": "#c9d1d9", "label": "#8b949e",
-            "title": "#58a6ff", "dots": "#30363d", "border": "#21262d",
-            "add": "#3fb950", "del": "#f85149", "accent": "#1f6feb",
-        },
-        "light": {
-            "bg": "#ffffff", "text": "#24292f", "label": "#57606a",
-            "title": "#0969da", "dots": "#d0d7de", "border": "#d0d7de",
-            "add": "#1a7f37", "del": "#cf222e", "accent": "#0969da",
-        },
+    c = {
+        "bg": "#0d1117", "text": "#c9d1d9", "label": "#8b949e",
+        "title": "#58a6ff", "dots": "#30363d", "border": "#21262d",
+        "add": "#3fb950", "del": "#f85149", "accent": "#1f6feb",
     }
-    c = themes[theme]
 
     # ── Build SVG root ────────────────────────────────────────────────────
     nsmap = {None: SVG_NS}
@@ -243,13 +214,13 @@ def build_svg(output_path, ascii_rows, theme="dark"):
         # First group goes as direct text, rest as tspans
         if groups:
             first_chars, first_color = groups[0]
-            fc = adapt_color_for_light_mode(*first_color) if theme == "light" else first_color
+            fc = first_color
             text_el.set("fill", _color_str(*fc))
             text_el.text = first_chars
 
             for chars, color in groups[1:]:
                 tspan = etree.SubElement(text_el, "tspan")
-                tc = adapt_color_for_light_mode(*color) if theme == "light" else color
+                tc = color
                 tspan.set("fill", _color_str(*tc))
                 tspan.text = chars
 
@@ -371,12 +342,11 @@ def main():
     ascii_rows = parse_ansi_file(ASCII_TEXT_FILE)
     print(f"  Parsed {len(ascii_rows)} rows, max {max(len(r) for r in ascii_rows)} cols")
 
-    # Step 3: Build both SVGs
-    print("Building SVG dashboards...")
-    build_svg("dark_mode.svg", ascii_rows, theme="dark")
-    build_svg("light_mode.svg", ascii_rows, theme="light")
+    # Step 3: Build dark mode SVG
+    print("Building SVG dashboard...")
+    build_svg("dark_mode.svg", ascii_rows)
 
-    print("\nDone! Both SVG dashboards generated with true-color ASCII art.")
+    print("\nDone! SVG dashboard generated with true-color ASCII art.")
 
 
 if __name__ == "__main__":

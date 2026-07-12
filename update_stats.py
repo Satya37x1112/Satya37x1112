@@ -2,8 +2,8 @@
 update_stats.py — GitHub Profile Stats Automation for Satya37x1112
 
 Dynamically queries the GitHub GraphQL API to gather profile statistics
-(commits, stars, repos, LOC, followers) and writes them into SVG dashboard
-files (dark_mode.svg and light_mode.svg).
+(commits, stars, repos, LOC, followers) and writes them into the SVG dashboard
+file (dark_mode.svg).
 
 Originally based on Andrew6rant's today.py, refactored and tailored for
 the Satya37x1112 profile.
@@ -711,19 +711,9 @@ if __name__ == "__main__":
     for index in range(len(total_loc) - 1):
         total_loc[index] = "{:,}".format(total_loc[index])
 
-    # ── Step 6: Write stats into both SVG dashboard files ─────────────────
+    # ── Step 6: Write stats into the SVG dashboard file ────────────────────
     svg_overwrite(
         "dark_mode.svg",
-        age_data,
-        commit_data,
-        star_data,
-        repo_data,
-        contrib_data,
-        follower_data,
-        total_loc[:-1],
-    )
-    svg_overwrite(
-        "light_mode.svg",
         age_data,
         commit_data,
         star_data,

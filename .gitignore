@@ -13,6 +13,9 @@ prof0_default.png
 prof0_edges.png
 prof0_retro.png
 
+# Removed light mode SVG
+light_mode.svg
+
 # OS files
 .DS_Store
 Thumbs.db
