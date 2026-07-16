@@ -16,9 +16,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1784210873" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1784210873" />
-  <img alt="GitHub Stats — Neofetch Style" src="dark_mode.svg?v=1784210873" width="985" />
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1784229701" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1784229701" />
+  <img alt="GitHub Stats — Neofetch Style" src="dark_mode.svg?v=1784229701" width="985" />
 </picture>
 
 </div>
