@@ -28,7 +28,7 @@ text, tspan {white-space: pre;}
 <tspan x="410" y="80">  <tspan class="key">Name</tspan>          : <tspan class="value">Satya Sarthak Manohari</tspan></tspan>
 <tspan x="410" y="100">  <tspan class="key">Role</tspan>          : <tspan class="value">Cybersecurity | Backend Engineer</tspan></tspan>
 <tspan x="410" y="120">  <tspan class="key">Location</tspan>      : <tspan class="value">Odisha, India</tspan></tspan>
-<tspan x="410" y="140">  <tspan class="key">Age</tspan>           : <tspan class="value" id="age_data">21 years, 1 month, 26 days</tspan></tspan>
+<tspan x="410" y="140">  <tspan class="key">Age</tspan>           : <tspan class="value" id="age_data">21 years, 1 month, 27 days</tspan></tspan>
 <tspan x="410" y="160">  <tspan class="key">Uptime</tspan>        : <tspan class="value" id="uptime_data">3 yrs, 6 mos</tspan></tspan>
 <tspan x="410" y="180">  <tspan class="key">Education</tspan>     : <tspan class="value">B.Tech CSE (Cybersecurity) at SSU</tspan></tspan>
 <tspan x="410" y="200">  <tspan class="key">Internship</tspan>    : <tspan class="value">NISER, Soilveda, CyberDojo</tspan></tspan>
