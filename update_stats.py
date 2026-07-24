@@ -27,12 +27,12 @@ HOW TO PROVISION THE GITHUB PERSONAL ACCESS TOKEN (ACCESS_TOKEN):
 8. Click "Generate token" and copy the token value.
 9. In your GitHub repository, go to Settings → Secrets and variables →
    Actions → "New repository secret".
-10. Name the secret  METRICS_TOKEN  and paste the token value.
+10. Name the secret  MAIN  and paste the token value.
 
 The GitHub Actions workflow (.github/workflows/main.yml) injects this
 secret as the ACCESS_TOKEN environment variable at runtime:
     env:
-      ACCESS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      ACCESS_TOKEN: ${{ secrets.MAIN }}
       USER_NAME: 'Satya37x1112'
 
 For local development/testing, export the variables in your shell:
@@ -54,7 +54,17 @@ from lxml import etree
 # ─── Configuration ────────────────────────────────────────────────────────────
 # ACCESS_TOKEN: Fine-grained GitHub Personal Access Token (see docstring above).
 # Must be set as an environment variable before running this script.
-HEADERS = {"authorization": "token " + os.environ["ACCESS_TOKEN"]}
+_access_token = os.environ.get("ACCESS_TOKEN", "")
+if not _access_token:
+    import sys
+    print(
+        "ERROR: ACCESS_TOKEN environment variable is not set or is empty.\n"
+        "       Please ensure the repository secret (MAIN) is configured correctly.\n"
+        "       See the docstring at the top of this file for provisioning instructions.",
+        file=sys.stderr,
+    )
+    sys.exit(1)
+HEADERS = {"authorization": "token " + _access_token}
 
 # USER_NAME: Your GitHub username. Set via environment variable so the same
 # script can be reused across profiles without code changes.

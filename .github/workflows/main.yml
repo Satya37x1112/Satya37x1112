@@ -23,7 +23,8 @@ jobs:
       uses: yoshi389111/github-profile-3d-contrib@latest
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        USERNAME: Satya37x1112
+        USERNAME: ${{ github.repository_owner }}
+      continue-on-error: true
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -40,7 +41,7 @@ jobs:
     - name: Update Stats in SVGs
       env:
         ACCESS_TOKEN: ${{ secrets.MAIN }}
-        USER_NAME: 'Satya37x1112'
+        USER_NAME: ${{ github.repository_owner }}
       run: python update_stats.py
 
     - name: Commit and Push Changes
