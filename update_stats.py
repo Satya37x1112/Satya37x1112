@@ -691,7 +691,7 @@ def formatter(query_type, difference, funct_return=False, whitespace=0):
 def update_readme_cache_buster():
     """
     Updates the version query parameter in README.md's SVG links
-    to bust GitHub Camo cache.
+    to bust GitHub Camo cache for both neofetch stats and 3D contribution graphs.
     """
     import re
     import time
@@ -701,18 +701,21 @@ def update_readme_cache_buster():
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
     
-    # Ensure initial ?v=0 is present if not already there
-    if "dark_mode.svg?v=" not in content:
-        content = content.replace("dark_mode.svg", "dark_mode.svg?v=0")
-    if "light_mode.svg?v=" not in content:
-        content = content.replace("light_mode.svg", "light_mode.svg?v=0")
+    def ensure_v_param(match):
+        svg_ref = match.group(0)
+        if "?v=" not in svg_ref:
+            return svg_ref + "?v=0"
+        return svg_ref
+
+    # Add ?v=0 to any .svg reference lacking a version query parameter
+    content = re.sub(r'[\w./-]+\.svg(\?v=\d+)?', ensure_v_param, content)
 
     timestamp = int(time.time())
-    new_content = re.sub(r'(dark_mode\.svg\?v=)\d+', rf'\g<1>{timestamp}', content)
-    new_content = re.sub(r'(light_mode\.svg\?v=)\d+', rf'\g<1>{timestamp}', new_content)
+    new_content = re.sub(r'(\.svg\?v=)\d+', rf'\g<1>{timestamp}', content)
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(new_content)
+
 
 
 # ─── Main Entry Point ────────────────────────────────────────────────────────
