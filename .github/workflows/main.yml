@@ -17,7 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@v4
+       uses: actions/checkout@v4
+       with:
+       fetch-depth: 0
 
     - name: Generate 3D Contribution Graph
       uses: yoshi389111/github-profile-3d-contrib@latest
