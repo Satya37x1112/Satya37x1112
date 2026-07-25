@@ -513,10 +513,17 @@ def _force_close_file(data, cache_comment):
 
 
 def _stars_counter(data):
-    """Counts total stars across all owned repositories."""
     total_stars = 0
-    for node in data:
-        total_stars += node["node"]["stargazers"]["totalCount"]
+
+    for edge in data:
+        repo = edge.get("node")
+
+        if repo is None:
+            print("Skipped a null repository returned by GitHub.")
+            continue
+
+        total_stars += repo["stargazers"]["totalCount"]
+
     return total_stars
 
 
