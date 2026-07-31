@@ -16,9 +16,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1785469004" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1785469004" />
-  <img alt="GitHub Stats — Neofetch Style" src="dark_mode.svg?v=1785469004" width="985" />
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1785489139" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1785489139" />
+  <img alt="GitHub Stats — Neofetch Style" src="dark_mode.svg?v=1785489139" width="985" />
 </picture>
 
 </div>
@@ -27,6 +27,6 @@
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-south-season.svg?v=1785469004" width="880" alt="3D Contribution Graph" />
+<img src="./profile-3d-contrib/profile-south-season.svg?v=1785489139" width="880" alt="3D Contribution Graph" />
 
 </div>
